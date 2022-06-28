@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80ac1528-6fdc-428b-94b2-ad1ad3a884f7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/CleanCode/CleanCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CleanCode/CleanCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CleanCode/AutomaticTest/Test/AbsoluteNumberCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CleanCode/AutomaticTest/Test/AbsoluteNumberCalculatorTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +14,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -32,18 +34,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "create.test.in.the.same.root": "true",
-    "jdk.selected.JAVA_MODULE": "corretto-18",
-    "last_opened_file_path": "D:/Module2/Module2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Module2/Module2&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="test" />
@@ -55,75 +58,79 @@
       <recent name="AutomaticTest.Source" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AbsoluteNumberCalculatorTest">
-    <configuration name="AbsoluteNumberCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CleanCode" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsP.LinkedList.Main" />
+      <module name="AbstractClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AutomaticTest.Test.*" />
+          <option name="PATTERN" value="CollectionsP.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="AutomaticTest.Test" />
-      <option name="MAIN_CLASS_NAME" value="AutomaticTest.Test.AbsoluteNumberCalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AbsoluteNumberCalculatorTest.testFindAbsolute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CleanCode" />
+    <configuration name="MyLinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsP.MyLinkList" />
+      <module name="AbstractClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AutomaticTest.Test.*" />
+          <option name="PATTERN" value="CollectionsP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="AutomaticTest.Test" />
-      <option name="MAIN_CLASS_NAME" value="AutomaticTest.Test.AbsoluteNumberCalculatorTest" />
-      <option name="METHOD_NAME" value="testFindAbsolute" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AbsoluteNumberCalculatorTest.testFindAbsolute1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CleanCode" />
+    <configuration name="MyList1Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsP.ArrayList.MyList1Test" />
+      <module name="AbstractClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AutomaticTest.Test.*" />
+          <option name="PATTERN" value="CollectionsP.ArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="AutomaticTest.Test" />
-      <option name="MAIN_CLASS_NAME" value="AutomaticTest.Test.AbsoluteNumberCalculatorTest" />
-      <option name="METHOD_NAME" value="testFindAbsolute1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CleanCode" />
+    <configuration name="MyListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsP.MyListTest" />
+      <module name="AbstractClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AutomaticTest.Test.*" />
+          <option name="PATTERN" value="CollectionsP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="JavaTest.Test" />
-      <option name="MAIN_CLASS_NAME" value="AutomaticTest.Test.CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMyList1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsP.ArrayList.TestMyList1" />
+      <module name="AbstractClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CollectionsP.ArrayList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AbsoluteNumberCalculatorTest" />
-        <item itemvalue="JUnit.AbsoluteNumberCalculatorTest.testFindAbsolute1" />
-        <item itemvalue="JUnit.AbsoluteNumberCalculatorTest.testFindAbsolute" />
-        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestMyList1" />
+        <item itemvalue="Application.MyList1Test" />
+        <item itemvalue="Application.MyListTest" />
+        <item itemvalue="Application.MyLinkList" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +143,14 @@
       <option name="presentableId" value="Default" />
       <updated>1655892377089</updated>
       <workItem from="1655892379627" duration="251000" />
-      <workItem from="1655906879929" duration="2838000" />
+      <workItem from="1655906879929" duration="11047000" />
+      <workItem from="1655956787534" duration="7539000" />
+      <workItem from="1656032932274" duration="2643000" />
+      <workItem from="1656161680146" duration="649000" />
+      <workItem from="1656297899320" duration="8402000" />
+      <workItem from="1656319583477" duration="12859000" />
+      <workItem from="1656342462471" duration="2209000" />
+      <workItem from="1656377827415" duration="1262000" />
     </task>
     <servers />
   </component>
