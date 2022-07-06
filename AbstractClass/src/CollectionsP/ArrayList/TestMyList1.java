@@ -18,7 +18,7 @@ public class TestMyList1 {
         myList1.add(4,200);
         myList1.add(11,11);
         myList1.add(3,100);
-        myList1.remove(13);
+
 
         System.out.println(myList1.get(0));
         System.out.println(myList1.get(1));
@@ -32,6 +32,16 @@ public class TestMyList1 {
         System.out.println(myList1.get(9));
         System.out.println(myList1.get(10));
         System.out.println(myList1.get(11));
+        System.out.println(myList1.get(12));
+        System.out.println(myList1.container(200));
         System.out.println(myList1.Size());
+        System.out.println(myList1.container(22));
+        Integer a = 128;
+        Integer b =128;
+        String c = "C";
+        String e = "C";
+        String d = new String("C");
+        System.out.println(c==e);
+        System.out.println(a==b);
     }
 }

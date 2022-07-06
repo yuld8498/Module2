@@ -46,8 +46,8 @@ public class MyList1<E> {
     }
 
     public boolean container(E o) {
-        for (int i = 0; i < elements.length; i++) {
-            if (elements[i] == o) {
+        for (int i = 0; i < size; i++) {
+            if (elements[i].equals(o)) {
                 return true;
             }
         }
@@ -60,28 +60,29 @@ public class MyList1<E> {
         }
         if (index < size) {
 
-            for (int i =size++; i > index; i--){
-                elements[i] = elements[i-1];
+            for (int i = size++; i > index; i--) {
+                elements[i] = elements[i - 1];
             }
             elements[index] = e;
-        }else {
+        } else {
             elements[size++] = e;
         }
     }
-    public E remove(int index){
-        if (index<size){
-            int j =0;
-            for (int i = 0;i<size;i++){
-                if (i == index){
+
+    public E remove(int index) {
+        if (index < size) {
+            int j = 0;
+            for (int i = 0; i < size; i++) {
+                if (i == index) {
                     continue;
-                }else {
+                } else {
                     elements[j] = elements[i];
                     j++;
                 }
             }
             --size;
-        }else {
-            System.out.println("Value at " + index + " is null.");
+        } else {
+            throw new IndexOutOfBoundsException();
         }
         return (E) elements[index];
     }
